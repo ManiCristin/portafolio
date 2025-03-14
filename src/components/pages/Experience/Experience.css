@@ -1,0 +1,65 @@
+.experience-section {
+    grid-column: 1 / -1;
+    border-radius: 0px; /* Hace que ocupe todo el ancho */
+  }
+  
+  .experience-content {
+    text-align: center;
+    padding: 1rem;
+    border-radius: 0px;
+  }
+  
+  .status-icon {
+    font-size: 2.5rem;
+    color: #7e93c9;
+    margin-bottom: 1.5rem;
+  }
+  
+  .status-icon i {
+    animation: float 3s ease-in-out infinite;
+  }
+  
+  .status-title {
+    font-size: 1.4rem;
+    color: #574dc7;
+    margin-bottom: 1rem;
+  }
+  
+  .status-description {
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+  }
+  
+  .ready-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    background: linear-gradient(135deg, #473db5, #e03693);
+    color: #c4bfe9cd;
+    border-radius: 20px;
+    font-size: 0.9rem;
+  }
+  
+  @keyframes float {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  .Studys-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 3rem;
+    background: linear-gradient(to right, #5a4977, #4f77ac);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
