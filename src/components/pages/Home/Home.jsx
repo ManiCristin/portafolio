@@ -10,7 +10,7 @@ export const Home = () => {
         
         <div className="profile-image">
      
-          <img src="/perfil.jpg" alt="Foto de perfil" />
+          <img src="/src/assets/img/perfil.png" alt="Foto de perfil" />
           <h2>Maria Cristina Moreno Sanchez</h2>
         </div>
         <div className="profile-content">
