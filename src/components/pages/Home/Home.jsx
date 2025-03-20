@@ -1,6 +1,6 @@
 import React from "react"
 import './Home.css';
-import perfilImage from '../../assets/img/perfil.jpg';
+
 
 
 export const Home = () => {
@@ -10,7 +10,7 @@ export const Home = () => {
         
         <div className="profile-image">
      
-          <img src={perfilImage} alt="Foto de perfil" />
+          <img src="./src/assets/img/perfil.jpg" alt="Foto de perfil" />
           <h2>Maria Cristina Moreno Sanchez</h2>
         </div>
         <div className="profile-content">
