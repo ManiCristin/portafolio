@@ -1,5 +1,6 @@
 import React from "react"
 import './Home.css';
+import porfilePhoto from './perfil.png'
 
 
 
@@ -10,7 +11,7 @@ export const Home = () => {
         
         <div className="profile-image">
      
-          <img src="src/components/pages/Home/perfil.png" alt="Foto de perfil" />
+          <img src={porfilePhoto} alt="Foto de perfil" />
           <h2>Maria Cristina Moreno Sanchez</h2>
         </div>
         <div className="profile-content">
